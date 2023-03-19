@@ -5,7 +5,7 @@ import userController from '../controllers/userController'
 import productController from '../controllers/productController'
 import shoppingCartController from '../controllers/shoppingCartController'
 
-import { uploadImage } from '../services/storage/storage'
+import { uploadImage } from '../services/storage/storage.ts'
 
 import userValidator from '../middleware/validators/userValidator'
 import productValidator from '../middleware/validators/productValidator'
